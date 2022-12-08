@@ -17,9 +17,12 @@ int main()
         scanf("%d", &arr[i]);
     }
 
+    printf("The Values of Array are as Follows :- \n");
     for (int i = 0; i < dec; i++)
     {
-        printf("The value of element %d is %d \n", i, arr[i]);
+        // printf("The value of element %d is %d \n", i, arr[i]);
+        printf("\t %d \t", arr[i]);
     }
+    printf("\n");
 
 }
